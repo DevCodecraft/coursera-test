@@ -1,5 +1,91 @@
-#menu-heading {
-    text-align: center; /* Center the text horizontally */
-    margin-top: 50px;   /* Add a top margin for vertical centering */
-  }
+/* General styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;}
+/* Header styles */
+header {
+  text-align: center;
+}
+header h1 {
+  font-size: 36px;
+  padding: 20px;
+}
+/* Main styles */
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-box p {
+  color: black;
+  font-size: 16px;
+  padding: 10px;
   
+}
+/* New styles for the text box */
+.text-box {
+  background-color: gray; /*  gray */
+  border-radius: 0px; /* Rectangular corners */
+  border: 2px solid #000; 
+  width: 33.33%;
+  margin: 10px;
+}
+
+h2 {
+ border-bottom: 2px solid black; /* 2px black border */
+ border-left: 2px solid black;
+ background-color: pink; /*  pink background color */
+ color: black; /* Black text color */
+ padding: 5px; /* Adjust padding as needed for spacing inside the box */
+ float : left ; /* Align the header to the left */
+
+}
+
+h3 {
+ border-bottom: 2px solid black; /* 2px black border */
+ border-left: 2px solid black;
+  background-color: red; /*   background color */
+  color: white; /* white text color */
+  padding: 5px; /* Adjust padding as needed for spacing inside the box */
+  float : right ;
+  size: 105.38X 40px;
+  }
+h4 {
+  border-bottom: 2px solid black; /* 2px black border */
+  border-left: 2px solid black;
+  background-color: rgba(255, 208, 146, 0.925); /*background color */
+  color: black; /* Black text color */
+  padding: 5px; /* Adjust padding as needed for spacing inside the box */
+  float : right ;
+  }
+/* _________________________Desktop____________________________ */
+/* @media (min-width: 992px) {
+  .text-box {
+    margin: 10px;
+    width: 50%
+   }
+  
+} */
+
+/* _______________________Tablet ____________________________*/
+/* @media (max-width: 992px ) {
+   .text-box {
+       margin: 10px;}
+   .text-box{
+      width : 50%
+      }
+} */
+/*_________________________Mobile______________________________*/
+/* @media (min-width: 495px) and (max-width:991px) {
+   .text-box {
+       margin: 10px;}
+   .text-box{
+       width : 100%
+      }
+}         */
+
+    
+
+
+
